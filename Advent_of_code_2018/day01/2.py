@@ -1,3 +1,6 @@
+#not optimized
+
+
 sum1 = 0
 inputArr = []
 arr = []
