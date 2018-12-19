@@ -53,7 +53,3 @@ for element in inputArr:
 
     if not doesOverlap:
        print(index)
-#print(vsota)
-#for neki in field:
-#    print(neki)
-
