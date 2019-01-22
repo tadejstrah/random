@@ -30,7 +30,7 @@ class Avto : public Vozilo{
     void pobarvaj(string b) override {  //override, ker overrida Vozilo::pobarvaj
         Vozilo::pobarvaj(b);
         barvaKoles = b;
-        cout << "barvo koles in barvo vozila sem spremenil na " << b << "\n";
+        cout << "barvo koles " << b << "in poklical sem funkcijo pobarvaj na klasu vozilo\n";
 
     }
 };

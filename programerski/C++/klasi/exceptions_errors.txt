@@ -1,0 +1,40 @@
+Exceptioni v C++
+
+
+python:
+
+try: f = open(neki.txt)
+except NekiNekiException:
+    doSomething()
+
+c++ 
+
+ifstream f("neki.txt");
+if (!f){   // če je šlo kej narobe, če se f ni nastavu, se bo global var errno nastavu na neko cifro (strerror() za string description)
+    print("error")
+    return
+}
+
+
+
+
+vector<int> a;
+try{
+    a.push_back(7)
+} catch (const std::bad_alloc){
+    cout << "";
+    e.what()
+   
+}
+
+
+class CustomException : public std::exception{
+    public CustomException(string msg) : std:exception(msg)    //konstruktor, kliče še parenta
+
+    string what() const override{
+        return "neki" + message;
+    };
+}
+
+
+
